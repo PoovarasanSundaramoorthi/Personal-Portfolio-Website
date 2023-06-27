@@ -63,7 +63,7 @@ function Resume() {
               <h2>Frontend Developer</h2>
               <div className="socials">
                 <a
-                  href="#https://www.linkedin.com/in/poovarasan-s-21301a242"
+                  href="https://www.linkedin.com/in/poovarasan-s-21301a242"
                   target="_blank"
                   className="fab fa-linkedin-in"
                   id="profile-link"
@@ -180,7 +180,7 @@ function Resume() {
                       <div className="project-description">
                         <h3>Kharpi</h3>
                         <p>
-                          Karpi is an online Web application. they provide all the extra curricular activity courses for
+                          Kharpi is an online Web application. they provide all the extra curricular activity courses for
                           the children, All childrenss quiz and homework is maintained by this application.
                         </p>
                       </div>
