@@ -56,11 +56,12 @@ function Resume() {
             <section className="header">
               <img
                 className="header-img"
-                src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="/1718880645110.jpg"
+                // src="https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
               <h1>Poovarasan S</h1>
-              <h2>Frontend Developer</h2>
+              <h2>Software Developer</h2>
               <div className="socials">
                 <a
                   href="https://www.linkedin.com/in/poovarasan-s-21301a242"
@@ -69,7 +70,7 @@ function Resume() {
                   id="profile-link"
                 ></a>
                 <a
-                  href="https://github.com/PoovarasanSundaramoorthi?tab=repositories"
+                  href="https://github.com/PoovarasanSundaramoorthi"
                   target="_blank"
                   className="fab fa-github"
                 ></a>
@@ -79,7 +80,7 @@ function Resume() {
                   className="fab fa-codepen"
                 ></a>
               </div>
-              <a href="" target="_blank" className="cta">
+              <a href="/Poovarasan.docx" target="_blank" className="cta">
                 DownIoad CV
               </a>
             </section>
@@ -120,11 +121,17 @@ function Resume() {
                 <div className="col-2">
                   <div className="about-item skills">
                     <h1>Skills</h1>
+                    <span className="skill">Node JS</span>
+                    <span className="skill">React</span>
+                    <span className="skill">Next JS</span>
+                    <span className="skill">Express</span>
+                    <span className="skill">Rest API</span>
+                    <span className="skill">Sequelize</span>
+                    <span className="skill">MYSQL</span>
+                    <span className="skill">PostgreSQL</span>
+                    <span className="skill">MongoDB</span>
                     <span className="skill">HTML</span>
                     <span className="skill">CSS</span>
-                    <span className="skill">JavaScript</span>
-                    <span className="skill">Node.js</span>
-                    <span className="skill">React</span>
                     <span className="skill">AWS</span>
                     <span className="skill">GCP</span>
                     <span className="skill">Vercel</span>
@@ -133,11 +140,10 @@ function Resume() {
                     <span className="skill">SASS</span>
                     <span className="skill">Sengrid</span>
                     <span className="skill">Git</span>
-                    <span className="skill">Android Studio</span>
+                    <span className="skill">Git Lab</span>
+                    <span className="skill">Git Hub</span>
 
-                    <span className="skill">API</span>
-                    <span className="skill">MongoDB</span>
-                    <span className="skill">Express</span>
+
                     <span className="skill">Bootstrap</span>
                     <span className="skill">MUI</span>
                   </div>
@@ -209,7 +215,7 @@ function Resume() {
                       <div className="project-description">
                         <h3>Shanthi Jewellers</h3>
                         <p>
-                         Its a Android Application. Attendance (face-recognition) , Jewellery Making Details, Ads, expenses Other Details maintained.
+                          Its a Android Application. Attendance (face-recognition) , Jewellery Making Details, Ads, expenses Other Details maintained.
                         </p>
                       </div>
                     </div>
@@ -239,7 +245,7 @@ function Resume() {
                 <div className="timeline">
                   <div className="timeline-items">
                     <div className="timeline-item">
-                      <div className="timeline-date">2021 - now</div>
+                      <div className="timeline-date">2021 - 2023 </div>
                       <div className="timeline-content">
                         <h3>
                           <a href="https://aviartechservices.com/" target="_blank">
@@ -268,26 +274,20 @@ function Resume() {
                         </div>
                       </div>
                     </div>
-                    {/* <div className="timeline-item">
-                      <div className="timeline-date">2015 - 2022</div>
+                                        <div className="timeline-item">
+                      <div className="timeline-date">2023 - now</div>
                       <div className="timeline-content">
-                        <h3>timeline item 2</h3>
+                        <h3>
+                          <a href="https://www.codetez.com/" target="_blank">
+                            Codetez Technology
+                          </a>
+                        </h3>
                         <p>
                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iusto accusantium nostrum
                           eligendi debitis quisquam. Corporis at voluptatem culpa officia.
                         </p>
                       </div>
                     </div>
-                    <div className="timeline-item">
-                      <div className="timeline-date">2014 - 2015</div>
-                      <div className="timeline-content">
-                        <h3>timeline item 3</h3>
-                        <p>
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iusto accusantium nostrum
-                          eligendi debitis quisquam. Corporis at voluptatem culpa officia.
-                        </p>
-                      </div>
-                    </div> */}
                   </div>
                 </div>
               </section>
